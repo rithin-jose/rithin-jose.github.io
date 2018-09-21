@@ -66,17 +66,6 @@ button.navbar-toggle.icon-bar{
   color: black;
 }
 
-div.qr{
-  background: white;
-  width: 150px;
-  margin-top: 10px;
-}
-
-div.container.font4{
-  width: 100%;
-  padding-left: 0;
-}
-
 /* classes */
 .my-nav{
   border: 0;
@@ -136,11 +125,7 @@ margin-bottom: 300px;
   display: inline-block;
   text-transform: capitalize;
   align-items: center;
-  /* margin-top: 325px; */
-  /* margin-left: 100 */
-  padding-left:200px;
-  margin-top: 50px;
-  text-shadow: 0 0 15px black, 0 0 15px black;
+  margin-top: 250px;
 }
 .typed-cursor{
   font-size: 30px;
@@ -150,7 +135,7 @@ margin-bottom: 300px;
   font-size: 30px;
 }
 .font2{
- font-family: 'Noto Serif KR', sans-serif;
+  font-family: 'Dancing Script', cursive;
   font-size: 30px;
 }
 .font3{
@@ -168,20 +153,14 @@ margin-bottom: 300px;
 }
 /* ids */
 #home{
-  /*https://images.unsplash.com/photo-1524143878510-e3b8d6312402?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=19ac23d185d78a648ce8acb0dc50bdf6&auto=format&fit=crop&w=700&q=60*/
   background: url(https://images.pexels.com/photos/585752/pexels-photo-585752.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
      background-size: cover;
      background-position: center;
      background-size: 100% 100%;
      background-attachment: fixed;
-     height: 650px;
        color: white;
 }
-#aboutpic{
-  height: 400px;
-  width: 400px;
 
-}
 #about{
   background-attachment: fixed;
 }
@@ -209,11 +188,8 @@ background: url(https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg
 #contact .container{
   padding-top: 40px;
 }
-#contact .pic{
-  border-radius: 50%;
-}
 
 #contact .strip1{
-  padding-top: 0;
+  padding-top: 80px;
   margin-bottom: 80px;
 }
