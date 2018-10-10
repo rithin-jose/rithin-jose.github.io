@@ -38,7 +38,7 @@ button a:link {
 }
 
 button a:visited {
-  color: white;
+  color: grey;
   text-decoration: none;
 }
 
