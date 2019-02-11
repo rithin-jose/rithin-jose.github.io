@@ -34,6 +34,9 @@
 	blockquote, q {
 		quotes: none;
 	}
+dark{
+	color:"grey",
+}
 
 	blockquote:before, blockquote:after, q:before, q:after {
 		content: '';
