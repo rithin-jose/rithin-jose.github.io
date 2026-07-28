@@ -1,1 +1,75 @@
-/* You can add global styles to this file, and also import other style files */
+/**************************************************************
+            Fonts
+**************************************************************/
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('/font/Poppins-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/font/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/font/Poppins-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/font/Poppins-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/font/Poppins-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('/font/Poppins-ExtraBold.ttf') format('truetype');
+}
+
+/**************************************************************
+            Root Definations
+**************************************************************/
+:root {
+	--color-bg: #111f35;
+	--color-foreground: #F0F0F5;
+	--color-brand: #8a244b;
+	--color-secondary: #d02752;
+	--color-accent: #f63049; /* micro-interactions only */
+    --font-family: 'Poppins', sans-serif;
+    --spacing-zero: 0px;
+    --spacing-xxs: 2px;
+    --spacing-xs: 4px;
+    --spacing-s: 8px;
+    --spacing-m: 16px;
+    --spacing-l: 32px;
+    --spacing-xl: 64px;
+}
+
+* {
+    padding: var(--spacing-zero);
+    margin: var(--spacing-zero);
+}

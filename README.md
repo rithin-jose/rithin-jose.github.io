@@ -1,4 +1,4 @@
-# RithinJose
+# Rithin Jose
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.0.7.
 
@@ -53,6 +53,10 @@ ng e2e
 ```
 
 Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+
+## Accessibility
+
+Accessibility is a core principle of this project. See [docs/a11y.md](docs/a11y.md) for the accessibility plan, guiding principles, implementation checklist, testing approach, and contributor expectations.
 
 ## Additional Resources
 
